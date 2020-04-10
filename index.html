@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Περιγραφή της Σελήνης">
+    <meta name="keywords" content="σελήνη, δορυφόρος, φεγγάρι, έκλειψη, πανσέληνος,
+    άνθρωπος, Νηλ Άρμστρονγκ, Neil Armstrong, Μπαζ Όλντριν, Buzz Aldrin">
+    <title>Η Σελήνη</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!--Επικεφαλίδα-->
+    <header>
+        <h1 class="h">Η Σελήνη</h1>
+    </header>
+    <!--Navigation Bar-->
+    <nav>
+        <!--hyper-links-->
+        <a href="#Generally">Γενικά</a> |
+        <a href="Exploration">Εξερεύνηση Σελήνης</a> |
+        <a href="Eclipse">Εκλείψεις Σελήνης</a> |
+        <a href="Comments">Σχόλια</a>
+    </nav>
+    <!--Section Generally-->
+    <section>
+        <h2 id="Generally" class="h">Γενικά Στοιχεία</h2>
+        <p>Η σελήνη είναι ο μοναδικός δορυφόρος της γης.</p>
+        <p>Η μέση απόσταση της γης από τη σελήνη είναι περίπου 380 χιλιάδες χιλιόμετρα.</p>
+        <p>Η διάμετρος της σελήνης είναι περίπου 3.500 χιλιόμετρα, δηλαδή είναι το 1/4 της διαμέτρου της γης.</p>
+        <figure>
+            <img src="moon.jpg" alt="Το φεγγάρι" title="Η Σελήνη">
+            <figcaption>Η σελήνη όπως φαίνεται από τη γη (από wikipedia commons)</figcaption>
+        </figure>
+
+        <div class="myTable">
+            <table>
+                <tr><th colspan="2">Η Ατμοσφαιρική Σύσταση<br>της Σελήνης</th></tr>
+                <tr>
+                    <td>Επιφανειακή<br>Ατμοσφαιρική Πίεση</td>
+                    <td>3x10<sup>-13</sup>kPa</td>
+                </tr>
+                <tr>
+                    <td>Ήλιο</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                    <td>Νέον</td>
+                    <td>25%</td>
+                </tr>
+                <tr>
+                    <td>Υδρογόνο</td>
+                    <td>23%</td>
+                </tr>
+                <tr>
+                    <td>Αργό</td>
+                    <td>20%</td>
+                </tr>
+                <tr>
+                    <td>Μεθάνιο<br>Αμμωνία<br>Διοξείδιο του άνθρακα</td>
+                    <td>ίχνη</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!--Section Exploration-->
+    <section>
+        <h2 id="Exploration" class="h">Η Εξερεύνηση της Σελήνης</h2>
+        <p>Το 1969, οι Neil Armstrong και Buzz Aldrin έγιναν οι πρώτοι άνθρωποι που πάτησαν στην επιφάνεια της Σελήνης.</p>
+        <p>Είναι φημισμένα τα λόγια του με την ευκαιρία της αποστολής αυτής.</p>
+        <audio controls>
+            <source src="NeilArmstrong.mp3" type="audio/mp3">
+        </audio>
+        <p><em>Αυτό το μικρό βήμα του ανθρώπου είναι ένα τεράστιο βήμα για την ανθρωπότητα</em></p>
+    </section>
+    <!--Section Eclipse-->
+    <section>
+        <h2 id="Eclpipse" class="h">Εκλείψεις Σελήνης</h2>
+        <p>Έκλειψη Σελήνης είναι το φαινόμενο κατά το οποίο η σελήνη περνά ακριβώς πίσω από τη Γη στη σκιά της. Αυτό μπορεί να συμβεί μόνο εάν ο Ήλιος. η Γη και η Σελήνη είναι σε συζυγία, με τη Γη ευρισκόμενη μεταξύ των δύο άλλων σωμάτων. Κάτι τέτοιο όμως είναι μόνο δυνατό νύχτα με πανσέληνο.</p>
+        <figure>
+            <img src="eclipse.png" alt="Έκλειψη Σελήνης" title="Η έκλειψη της σελήνης">
+            <figcaption>Η γεωμετρία της έκλειψης σελήνης (από wikipedia common)</figcaption>
+        </figure>
+    </section>
+    <!--Section Comments-->
+    <section>
+        <h2 id="Comments" class="h">Τα σχόλιά σας για την ιστοσελίδα μας</h2>
+        <form action="">
+            <div>
+                <label for="name">Όνομα: </label>
+                <input type="text" id="name" name="user_name">
+            </div>
+            <div>
+                <label for="area"></label>
+                <textarea name="textarea" id="area" cols="50" rows="5"></textarea>
+            </div>
+        </form>
+    </section>
+    <section class="footer">
+        <footer>
+            <p>
+                &copy; Copyright από wikipedia common | First Page <br /> 2020 | 2021 
+            </p>
+        </footer>
+    </section>
+</body>
+</html>
